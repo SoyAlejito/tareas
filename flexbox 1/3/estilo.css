@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.caja{
+    background-color: darkred;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 70px;
+}
+.hijo{
+    background-color: darkslategrey;
+    width: 200px;
+    height: 200px;
+}
