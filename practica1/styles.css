@@ -1,0 +1,81 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Quicksand", sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(98, 0, 255);
+    margin-top: 20px;
+    font-size: 40px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    height: 300px;
+}
+.star{
+    color: blue;
+}
+.texto{
+    font-size: 14px;
+    letter-spacing:1px ;
+    line-height: 20px;
+    
+}
+.span{
+    color: blue;
+    
+}
+.caja{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.subtitulo{
+
+}
+.imagen{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.mini-caja{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.descripcion{
+    font-size: 12px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.boton{
+    color: darkblue;
+    border: 4px solid darkorchid;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+}
+.star{
+    letter-spacing: 10px;
+}
+
